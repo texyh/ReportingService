@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{D1866D63-2A6C-4B96-B569-08ED1B2414E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{A0A2D433-8E8C-4B2B-944E-AAC1061024DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{E89A2EC4-B633-4288-9608-B85212BD27E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Tests", "99.Tests", "{F52AE38F-DBA7-4D2C-BA1A-3871DCB0819E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingService.Web", "ReportingService.Web\ReportingService.Web.csproj", "{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D} = {D1866D63-2A6C-4B96-B569-08ED1B2414E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6A58E86-2BCD-4CFE-BDA9-945EB5C87E0E}
+	EndGlobalSection
+EndGlobal
