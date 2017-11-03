@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ReportingService.Web.Controllers
+namespace ReportingSystem.Web.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller

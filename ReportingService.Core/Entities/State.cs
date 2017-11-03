@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReportingService.Core.Entities
+namespace ReportingSystem.Core.Entities
 {
     public class State
     {
