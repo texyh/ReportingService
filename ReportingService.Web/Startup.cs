@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace ReportingService.Web
+namespace ReportingSystem.Web
 {
     public class Startup
     {
