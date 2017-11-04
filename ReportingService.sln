@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{D1866D63-2A6C-4B96-B569-08ED1B2414E3}"
 EndProject
@@ -11,11 +11,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Tests", "99.Tests", "{F52AE38F-DBA7-4D2C-BA1A-3871DCB0819E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingService.Web", "ReportingService.Web\ReportingService.Web.csproj", "{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingService.Web", "ReportingService.Web\ReportingService.Web.csproj", "{7A1C54C5-81D8-49C6-B3A8-F8064A5D176D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingService.Core", "ReportingService.Core\ReportingService.Core.csproj", "{AD437728-2825-4F08-A375-12E93C1B87E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingService.Core", "ReportingService.Core\ReportingService.Core.csproj", "{AD437728-2825-4F08-A375-12E93C1B87E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportingService.Services", "ReportingService.Services\ReportingService.Services.csproj", "{2CF3FE41-56DE-49D7-8FB4-CB09E7158281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingService.Services", "ReportingService.Services\ReportingService.Services.csproj", "{2CF3FE41-56DE-49D7-8FB4-CB09E7158281}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ReportingService.UI", "ReportingService.UI\", "{20E22012-66FB-4DAD-BA46-FDF83796E6B7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51547"
+		Debug.AspNetCompiler.PhysicalPath = "ReportingService.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51547\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51547"
+		Release.AspNetCompiler.PhysicalPath = "ReportingService.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51547\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51547"
+		SlnRelativePath = "ReportingService.UI\"
+		StartServerOnDebug = "false"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +57,10 @@ Global
 		{2CF3FE41-56DE-49D7-8FB4-CB09E7158281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CF3FE41-56DE-49D7-8FB4-CB09E7158281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CF3FE41-56DE-49D7-8FB4-CB09E7158281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E22012-66FB-4DAD-BA46-FDF83796E6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E22012-66FB-4DAD-BA46-FDF83796E6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E22012-66FB-4DAD-BA46-FDF83796E6B7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E22012-66FB-4DAD-BA46-FDF83796E6B7}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
