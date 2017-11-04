@@ -16,7 +16,8 @@ namespace ReportingSystem.Core.Entities
 
         public long StateId { get; set; }
 
-        public virtual State State { get; set; }
+        public string Dealer { get; set; }
         
+        public virtual State State { get; set; }
     }
 }

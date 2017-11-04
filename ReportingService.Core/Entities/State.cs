@@ -11,6 +11,5 @@ namespace ReportingSystem.Core.Entities
         public Guid SalesRepId { get; set; }
 
         public User SalesRep { get; set; }
-        
     }
 }
